@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title >janu</title>
+    <link rel="icon" type="image/x-icon" href="image/smiley.png.png">
+</head>
+<body style="background-color:azure;>
+    <fieldset>
+
+    <h1 style="color:black;text-align:center;">BIO DATA</h1>
+    <form action="main.html.html">
+    <hr> 
+    <h2>Personal information</h2>                                                                                             
+    <label>Name   :</label> 
+    <input type="Name" required> 
+    <br><br>
+    <label>Father Name:</label> 
+    <input type="name" required>
+    <br><br>
+    <label>Mother Name:</label> 
+    <input type="Name" required >
+    <br><br>
+    <label>Data of birth</label> 
+    <input type="datetime-local">
+    <br><br>
+    <label>Gender</label>
+    <input type="name" required>
+    <br><br>
+    <label>Marital status</label>
+    <input type="name" required>
+    <br><br>
+    <label>Language known</label>
+    <input type="name" required>
+    <br><br><br>
+    <h2>Contact Information</h2>
+    <br>
+    <label>Current Address</label>
+    <input type="address"required>
+    <br><br>
+    <label>Mobile</label>
+    <input type="number" required>
+    <br><br>
+    <label>Email:</label>
+    <input type="email" required>
+    <br><br>
+    
+    <table width="500px" style="border: 3px solid;">
+        <thead><h2>Educational Qualification</h2></thead>
+        <tr>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Year of Passing</th>
+            <th>Pecentage</th>
+            <tbody>
+                <tr>
+                   <td><input type="name"></td> 
+                    <td><input type="name"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></tr>
+                </tr>
+                <tr>
+                    <td><input type="name"></td> 
+                    <td><input type="name"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></tr>
+                </tr>
+                <tr>
+                    <td><input type="name"></td> 
+                    <td><input type="name"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></tr>
+                </tr>
+            </tbody>
+            
+
+        </tr>
+    </table>
+    </body></form>
+    <input type="submit">
+</fieldset>
+</body>
